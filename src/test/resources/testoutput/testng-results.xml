@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T21:36:33 IST" name="RCB Team" finished-at="2023-02-20T21:36:33 IST" duration-ms="328">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T21:36:33 IST" name="RCB Team Configuration TestCases" finished-at="2023-02-20T21:36:33 IST" duration-ms="328">
+      <class name="com.testcases.TeamConfigTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TeamConfigTest@6a2b953e]" started-at="2023-02-20T21:36:33 IST" name="setUp" finished-at="2023-02-20T21:36:33 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMinimumOneWicketKeeperInTeam(java.lang.String)[pri:0, instance:com.testcases.TeamConfigTest@6a2b953e]" started-at="2023-02-20T21:36:33 IST" name="verifyMinimumOneWicketKeeperInTeam" finished-at="2023-02-20T21:36:33 IST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teamRCB_InputJson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMinimumOneWicketKeeperInTeam -->
+        <test-method signature="verifyOnlyFourForeignPlayersInTeam(java.lang.String)[pri:0, instance:com.testcases.TeamConfigTest@6a2b953e]" started-at="2023-02-20T21:36:33 IST" name="verifyOnlyFourForeignPlayersInTeam" finished-at="2023-02-20T21:36:33 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teamRCB_InputJson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlyFourForeignPlayersInTeam -->
+      </class> <!-- com.testcases.TeamConfigTest -->
+    </test> <!-- RCB Team Configuration TestCases -->
+  </suite> <!-- RCB Team -->
+</testng-results>

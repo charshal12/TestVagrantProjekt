@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RCB Team">
+    <test name="RCB Team Configuration TestCases">
+        <parameter name="fileName" value="teamRCB_InputJson" />
+        <classes>
+            <class name="com.testcases.TeamConfigTest"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
