@@ -13,17 +13,14 @@ import java.util.Properties;
 
 public class TestBase {
 
-
-    public static WebDriver driver;
     public static Properties config = new Properties();
     public static Properties OR = new Properties();
     public static FileInputStream fis;
-    String websiteUrl;
     public static final String BROWSER = "browser";
     public static final String USER_DIR = "user.dir";
     public static final String configPath = "\\src\\test\\resources\\properties\\config.properties";
     public static String orPath = "\\src\\test\\resources\\properties\\or.properties";
-
+    public static WebDriver driver;
 
 
     @BeforeTest
@@ -42,11 +39,10 @@ public class TestBase {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }else if (config.getProperty(BROWSER).equals("chrome")) {
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
-
-
     }
 
     @AfterSuite

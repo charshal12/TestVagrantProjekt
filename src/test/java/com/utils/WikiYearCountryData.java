@@ -10,10 +10,10 @@ public class WikiYearCountryData extends TestBase {
 
     public static final String WIKI_ORIGIN_COUNTRY = "wikiOriginCountry";
     public static final String WIKI_RELEASE_YEAR_ELEMENT = "wikiReleaseYearElement";
+    public static final String WIKI_URL = "wikiUrl";
 
-    public static void loadWebPage(){
-
-        driver.get(config.getProperty("wikiUrl"));
+    public void loadWebPage(){
+        driver.get(config.getProperty(WIKI_URL));
         driver.manage().window().maximize();
     }
 

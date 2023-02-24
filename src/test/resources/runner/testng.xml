@@ -8,4 +8,9 @@
         </classes>
     </test>
 
+    <test name="RCB Team Year and Country TestCases">
+         <classes>
+            <class name="com.testcases.TeamYearCountryTest"/>
+        </classes>
+    </test>
 </suite> <!-- Suite -->
