@@ -2,7 +2,7 @@ package com.testcases;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-import utils.JacksonObjectMapper;
+import com.utils.JacksonObjectMapper;
 import Modal.Player;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
