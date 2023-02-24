@@ -52,4 +52,15 @@ Pre-req:
 Command to execute : mvn clean test -DsuiteXmlFile=testng.xml  
 ![image](https://user-images.githubusercontent.com/9412613/220281684-523f13a0-cca2-43a1-b8f3-2af92dcbb251.png)
 
-    
+***********************Editing the Readme after adding assertions***********************
+
+
+The Approach has now changed to Hybrid Framework, included the Page Object Modelling for writing Test Scripts.
+
+I have created "or.properties", "config.properties" properties files in properties package to store the information related to webelements, browsers and urls.
+Then "TestBase.java" class is created to map the properties file and invoke browser in base package. 
+Post this prepared 2 java classes for wiki and imdb page respectively to fetch required data in utils package.
+Also have updated pom.xml and testng.xml with dependencies and test details respectively.
+
+Updating execution result after adding the assertions in the framework.
+![image](https://user-images.githubusercontent.com/9412613/221128758-c78eab76-5ecc-406a-a7a5-82f612e3cb8f.png)
