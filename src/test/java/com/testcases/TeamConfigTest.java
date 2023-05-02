@@ -50,5 +50,6 @@ public class TeamConfigTest {
                 .collect(Collectors.toList());
 
         Assertions.assertThat(wicketKeeperList).hasSizeGreaterThanOrEqualTo(1);
+        System.out.println("verifyMinimumOneWicketKeeperInTeam IS EXECUTED!!!!!");
     }
 }
